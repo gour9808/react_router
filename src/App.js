@@ -12,16 +12,14 @@ import Side from './components/navbar'
 
 const App = () => {
 
-
   return (
-  
     <div className="App">
       <Router>
-      <Side />
-          <Switch>
-            <Route exact path="/" component={Blogs} />
-            <Route path="/new" component={New} />
-          </Switch>
+        <Side />
+        <Switch>
+          <Route exact path="/" component={Blogs} />
+          <Route path="/new" component={New} />
+        </Switch>
       </Router>
     </div>
   );
