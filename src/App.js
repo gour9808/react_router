@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom';
 
 import Blogs from './components/blogs';
-import New from './components/blogs';
+import New from './components/new-blogs';
 import Side from './components/navbar'
 
 const App = () => {
